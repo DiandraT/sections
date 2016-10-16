@@ -16,7 +16,7 @@ img {
   max-width: 25em;
   width: 100%;
   vertical-align: middle;
-  display: inline-block;
+  display: block;
   padding-top: 1.5em;
 }
 
@@ -28,6 +28,10 @@ h1 {
   text-align: left;
 }
 
+h2 {
+  display: none;
+}
+
 p {
   font-size: 1rem;
   font-weight: normal;
@@ -36,7 +40,7 @@ p {
   padding-bottom: 0.5em;
 }
 
-a {
+.btn {
   text-decoration: none;
   list-style-type: none;
   color: #333;
